@@ -1,0 +1,9 @@
+flask
+gradio
+torch
+transformers
+sentence-transformers
+faiss-cpu
+pytesseract
+pdf2image
+numpy
