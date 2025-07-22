@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1wK4cSzINCbYENCTRP4y1-KTS38T0VQJo
 """
 
-!pip install -q pytesseract pdf2image pillow gradio transformers sentence-transformers faiss-cpu
-
 from google.colab import files
 
 uploaded = files.upload()
