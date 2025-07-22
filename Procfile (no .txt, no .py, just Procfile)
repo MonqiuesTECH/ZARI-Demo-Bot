@@ -1,1 +1,1 @@
-web: python zari_bot_voice.py
+web: gunicorn app:app
