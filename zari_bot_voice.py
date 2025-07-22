@@ -26,8 +26,6 @@ def extract_text_with_ocr(pdf_path):
 ocr_text = extract_text_with_ocr(pdf_path)
 print(ocr_text[:1000])  # preview the first 1000 characters
 
-!apt-get install -y poppler-utils
-
 from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
