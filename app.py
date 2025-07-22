@@ -23,4 +23,4 @@ demo = gr.Interface(fn=chat_with_zari,
                     title="ZARI Agent",
                     description="Ask ZARI Agent questions about your business, ops, or automation strategy.")
 
-app = demo.launch(inline=False, share=False)
+app = demo.launch(server_name="0.0.0.0", server_port=8000)
