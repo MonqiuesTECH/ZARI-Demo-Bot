@@ -19,4 +19,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8000
 
 # Start the app
-CMD ["python", "zari_bot_voice.py"]
+CMD ["python", "app.py"]
